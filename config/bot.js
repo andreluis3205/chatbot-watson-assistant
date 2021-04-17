@@ -24,11 +24,11 @@ var watson = require('watson-developer-cloud');
 // Get API Key and Workspace_id and change the fields below
 // Watson Assistant service and credentials
 var assistant = new watson.AssistantV1({
-    iam_apikey: '<API Key>',
+    iam_apikey: 'QKawTsIvP4xO9zeHmBs4hNL5aXxWSnlQls2MDWXHXohA',
     version: '2019-08-16',
     url: 'https://gateway.watsonplatform.net/assistant/api'
 });
-workspace_id = "<workspace_id>";
+workspace_id = "11e2a4b7-d5c1-4a43-9da4-324c7224c8fc";
 
 var chatbot = {
     sendMessage: function (req, callback) {
