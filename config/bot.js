@@ -28,7 +28,7 @@ var assistant = new watson.AssistantV1({
     version: '2019-08-16',
     url: 'https://gateway.watsonplatform.net/assistant/api'
 });
-workspace_id = "11e2a4b7-d5c1-4a43-9da4-324c7224c8fc";
+workspace_id = "d53bacf2-7a69-41b4-8ff4-6f077dae3609";
 
 var chatbot = {
     sendMessage: function (req, callback) {
